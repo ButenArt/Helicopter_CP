@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\Audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\AviaMotion_TCP_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CAN4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CAN_Interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CAN_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gen\CanExchange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Controls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\FCC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_BoardSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_Faults.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_OC_tcp_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_PanelRadio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_PanelWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_Prima.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_Projectors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_Rita_TCP_Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_SPU_Bort_Teh_TCP_Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_SPU_Left_Pilot_TCP_Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_SPU_Right_Pilot_TCP_Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_TargetsManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_WeaponWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_can.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_canwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_controls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_imager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_imager_tcp_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_imager_tcp_client_sfera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_imitator_tcp_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_instructor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_instructor_tcp_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_joystick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_onboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_script_tcp_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\Helicopter_serviceerrors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Logging.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Joystick\LogiControllerInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Joystick\LogiControllerInputUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Joystick\LogiGameController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Joystick\LogiGameControllerDI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MOXA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\MotionSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\PCAN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Replay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Script.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ServerInstructor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\ServiceErrors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\SettingsFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\SystemTray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\TCP_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\TransferFunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UDP_OU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\autopilot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightRecorder\checkbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\controlgrid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightRecorder\controlwidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightRecorder\flightrecorder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightRecorder\fr_controls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicopter\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightRecorder\plots.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlightRecorder\scales.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Common\Audio.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\AviaMotion_TCP_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Common\CAN4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CAN_Interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Common\CAN_common.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Common\PCAN\CanApi4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Common\Controls.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\FCC.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_BoardSystem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_CanWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Helicopter\Helicopter_FM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Helicopter\Helicopter_Faults.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_MainWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_Model.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_OC_tcp_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_PanelRadio.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_PanelWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_Prima.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_Projectors.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_Rita_TCP_Client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Gen\Helicopter_SOD.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Helicopter\Helicopter_SPU_Bort_Teh_TCP_Client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_SPU_Left_Pilot_TCP_Client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_SPU_Right_Pilot_TCP_Client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_TargetsManager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_WeaponWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_audio.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_can.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_controls.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_core.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_imager.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_imager_tcp_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_imager_tcp_client_sfera.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_imitator_tcp_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_instructor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_instructor_tcp_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_joystick.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_onboard.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_script.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_script_tcp_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_server.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\Helicopter_serviceerrors.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\Logging.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Common\Joystick\LogiControllerInput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Joystick\LogiControllerInputGlobals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Joystick\LogiControllerInputUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Joystick\LogiGameController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Joystick\LogiGameControllerDI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MOXA.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MOXA\MXCANFUNC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\MOXA\MXERROR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Common\MotionSystem.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Common\PCAN.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\PCAN\PCANBasic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Printer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Common\Replay.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\Script.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\Server.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\ServerInstructor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\ServiceErrors.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\SettingsFile.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\SystemTray.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Common\TCP_client.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Helicopter\TransferFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Common\UDP_OU.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Helicopter\autopilot.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Common\avia_dictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlightRecorder\checkbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="Helicopter\controlgrid.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="FlightRecorder\controlwidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Helicopter\encoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="FlightRecorder\flightrecorder.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="FlightRecorder\fr_controls.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="Common\log_duration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helicopter\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlightRecorder\plots.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\queuetimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlightRecorder\scales.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Helicopter\Helicopter_CanWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Helicopter\Helicopter_Faults.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Helicopter\Helicopter_MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Helicopter\Helicopter_PanelRadio.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Helicopter\Helicopter_PanelWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Helicopter\Helicopter_WeaponWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Common\Common.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="Common\resource\empty.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Common\resource\logo-aes.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".\Common\common_dictionary.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

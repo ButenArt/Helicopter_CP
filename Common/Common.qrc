@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/logo-aes.png</file>
+        <file>resource/empty.wav</file>
+    </qresource>
+</RCC>
